@@ -1,11 +1,14 @@
 # obscure64
-This is a simple base64 encoder/decoder that gives you a headache. It's just a simple wrapper around the built-in base64 module.
 
+This is a base64 based encoder/decoder tool mainly used to obfuscate base64 encoding to make your data transfer more secure and
+interesting.
 
 ## Usage
+
 ```shell
 pip install obscure64
 ```
+
 ```py
 from obscure64 import Obscure64
 
@@ -14,7 +17,9 @@ result = ob64.encode("Hello World!".encode())
 print(result)
 print(ob64.decode(result))
 ```
+
 And you can make it interesting.
+
 ```py
 from obscure64 import Obscure64
 
@@ -28,4 +33,5 @@ print(ob64.decode(result))
 ```
 
 ## Projects inspired by this library
+
 [Emoji-Chat](https://github.com/vvanglro/Emoji-Chat)
