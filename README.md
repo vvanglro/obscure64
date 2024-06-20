@@ -1,4 +1,5 @@
 # obscure64
+[![Package version](https://img.shields.io/pypi/v/obscure64?color=%2334D058&label=pypi%20package)](https://pypi.python.org/pypi/obscure64)
 
 This is a base64 based encoder/decoder tool mainly used to obscure base64 encoding to make your data transfer more secure and
 interesting.
