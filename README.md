@@ -26,3 +26,6 @@ result = ob64.encode("Hello World!".encode())
 print(result.decode())
 print(ob64.decode(result))
 ```
+
+## Projects inspired by this library
+[Emoji-Chat](https://github.com/vvanglro/Emoji-Chat)
