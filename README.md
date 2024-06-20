@@ -8,17 +8,20 @@ interesting.
 ```shell
 pip install obscure64
 ```
-
+Obfuscated coded data, causing headaches for those who get it.🤕
 ```py
 from obscure64 import Obscure64
 
 ob64 = Obscure64()
 result = ob64.encode("Hello World!".encode())
-print(result)
-print(ob64.decode(result))
+print(result)  # output: b'sgvSBg8Gv29YBgqH'
+print(ob64.decode(result))  # output: b'Hello World!'
+
+import base64
+print(base64.b64encode("Hello World!".encode()))  # output: b'SGVsbG8gV29ybGQh'
 ```
 
-And you can make it interesting.
+And you can make it interesting.🤔
 
 ```py
 from obscure64 import Obscure64
@@ -28,8 +31,8 @@ ob64 = Obscure64(
              "🐹🐰🐇🐻🐨🐼🐾🐔🐓🐣🐤🐥🐧🐸🐊🐢🐍🐲🐉🐳🐋🐬🐠🐡🐙🐚🐌🐛🐜🐝🐞🦋"
 )
 result = ob64.encode("Hello World!".encode())
-print(result.decode())
-print(ob64.decode(result))
+print(result.decode())  # output: 🐎🐩🐃🐥🐑🐩🐛🐀🐃🐬🐜🐲🐑🐩🐅🐹
+print(ob64.decode(result))  # output: b'Hello World!'
 ```
 
 ## Projects inspired by this library
