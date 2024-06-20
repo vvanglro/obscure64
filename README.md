@@ -1,6 +1,6 @@
 # obscure64
 
-This is a base64 based encoder/decoder tool mainly used to obfuscate base64 encoding to make your data transfer more secure and
+This is a base64 based encoder/decoder tool mainly used to obscure base64 encoding to make your data transfer more secure and
 interesting.
 
 ## Usage
